@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #cceeff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #gameArea {
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    margin: 30px auto;
+    background: #0077b6;
+    border: 3px solid #003f5c;
+    overflow: hidden;
+    background: url('4025a807-701a-4a4a-8585-47202f94738c.jpg') no-repeat center/cover;
+  }
+  
+  #player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('basket.png') no-repeat center/cover;
+    top: 180px;
+    left: 280px;
+  }
+  
+  .trash, .fish {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .trash {
+    background: url('R-removebg-preview.png') no-repeat center/cover;
+  }
+  
+  .fish {
+    background: url('R__1_-removebg-preview.png') no-repeat center/cover;
+    transform: rotate(90deg);
+  }
+  
+  #score {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003f5c;
+  }
+  
